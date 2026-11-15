@@ -12,3 +12,5 @@ brew install <formula>
 ## Formulas here
 
 - [`clincalc`](https://github.com/ohtf/clincalc) — Open, auditable clinical calculators.
+- [`panic-button`](https://github.com/ohtf/panic-button) (cask) - Panic Button desktop app, a staff panic alarm: `brew install --cask ohtf/tap/panic-button`.
+- [`panic-button-cli`, `panic-button-agent`, `panic-button-relay`](https://github.com/ohtf/panic-button) - Panic Button command-line tools, headless agent and relay.
