@@ -1,7 +1,6 @@
-#
 cask "panic-button" do
-  version "0.1.0"
-  sha256 "119a2850a73444830eb86c090d5bba65d37bba19be7388c41bdc122ef7f75de3"
+  version "0.2.0"
+  sha256 "41ef663f584c565a57c8735afee8e675862e409a996e25994c500ede039547ae"
 
   url "https://github.com/ohtf/panic-button/releases/download/v#{version}/panic-button-desktop_#{version}_universal.dmg"
   name "Panic Button"
