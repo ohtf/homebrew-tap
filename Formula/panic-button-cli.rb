@@ -1,25 +1,25 @@
 class PanicButtonCli < Formula
   desc "A staff panic alarm over the local network: the panic-button admin CLI, the headless panic-button-agent and the panic-button-relay server."
   homepage "https://github.com/ohtf/panic-button#readme"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ohtf/panic-button/releases/download/v0.2.0/panic-button-aarch64-apple-darwin.tar.xz"
-      sha256 "616a304077bde3b4e30ec13c73ff389aedd8921ab5b1e5e3c45f7f0a2ce45973"
+      url "https://github.com/ohtf/panic-button/releases/download/v0.2.1/panic-button-aarch64-apple-darwin.tar.xz"
+      sha256 "0506ef0e2f8e97142ad5ec94abfe73ea07eee413349736c8dba7ffdd07b397c4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ohtf/panic-button/releases/download/v0.2.0/panic-button-x86_64-apple-darwin.tar.xz"
-      sha256 "ae34ad5a3a4e7a4bd612b4ce7e984b866f1f688a9dcfc3f736c8814445b0d631"
+      url "https://github.com/ohtf/panic-button/releases/download/v0.2.1/panic-button-x86_64-apple-darwin.tar.xz"
+      sha256 "50c269d94909bed5c907e04d97ff5368af874874377ce317c20466195a56a1a0"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ohtf/panic-button/releases/download/v0.2.0/panic-button-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c6529a918fd93fc1cd4086d5d5189432f1cbe93433fc54d7414ba67094fd08c7"
+      url "https://github.com/ohtf/panic-button/releases/download/v0.2.1/panic-button-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "14f44a5ac5ad85cb689f337c7b8ae6084fb550e8eaa72e43e6b5ea166448775f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ohtf/panic-button/releases/download/v0.2.0/panic-button-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bd4b8c92aa199eed0808122ee1f3afc026abde52decfd03a7158bb5c2221d7d3"
+      url "https://github.com/ohtf/panic-button/releases/download/v0.2.1/panic-button-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c4671f8486b64f3ef65999473e78fd98c5c9ba955c5e84c6065349238c46f2ff"
     end
   end
   license "AGPL-3.0-or-later"
